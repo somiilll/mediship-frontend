@@ -1,15 +1,15 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Montserrat;
 }
 
-body{
+body {
   background: url(patientlist_bg.png) no-repeat center center fixed;
   background-size: cover;
 }
 
-.nav{
+.nav {
   display: inline-flex;
   background-color: #8375ea;
   width: 100%;
@@ -18,76 +18,76 @@ body{
   position: fixed;
 }
 
-.nav .name{
+.nav .name {
   display: inline-flex;
   padding: 10px 3%;
 }
 
-.nav .name h2{
+.nav .name h2 {
   color: #fff;
   padding: 6px 20px;
   font-size: 32px;
   font-weight: 300;
 }
 
-.nav h1{
+.nav h1 {
   color: #fff;
   padding: 5px 6%;
   text-shadow: 1px 1px 0 #8375ea;
   font-size: 48px;
 }
 
-.container{
+.container {
   align-items: center;
   margin: auto;
   width: 88%;
   padding-top: 8vh;
 }
 
-.heading{
+.heading {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.heading h1{
+.heading h1 {
   font-size: 64px;
   color: #8375ea;
 }
 
-.search-add{
+.search-add {
   padding-top: 20px;
   display: inline-flex;
 }
 
-.search{
+.search {
   width: 500px;
   height: 40px;
   background-color: #fff;
   border-radius: 50px;
 }
 
-.search img{
+.search img {
   height: 27px;
   padding-left: 15px;
   padding-top: 5px;
 }
 
-.search input{
+.search input {
   font-size: 24px;
   border: none;
   padding-left: 20px;
 }
 
-.add{
+.add {
   padding-left: 50px;
 }
 
-.add button:hover{
+.add button:hover {
   cursor: pointer;
 }
 
-.add button{
+.add button {
   font-size: 24px;
   width: 100px;
   height: 40px;
@@ -97,12 +97,12 @@ body{
   border-radius: 10px;
 }
 
-.add button img{
+.add button img {
   padding: 5px 10px 0px 5px;
   height: 24px;
 }
 
-.grid-container{
+.grid-container {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 30px;
@@ -111,7 +111,7 @@ body{
   grid-template-columns: 32% 32% 32%;
 }
 
-.grid-item{
+.grid-item {
   font-size: 24px;
   padding: 30px;
   background-color: #fff;
@@ -119,13 +119,13 @@ body{
   box-shadow: 4px 4px 0 rgba(131, 117, 234, 0.25);
 }
 
-.prescribe-edit-delete{
+.prescribe-edit-delete {
   display: inline-flex;
   width: 100%;
   justify-content: space-around;
 }
 
-.prescribe button{
+.prescribe button {
   font-size: 36px;
   color: #fff;
   width: 225px;
@@ -134,17 +134,17 @@ body{
   border-radius: 10px;
 }
 
-.prescribe button:hover{
+.prescribe button:hover {
   cursor: pointer;
   border: 2px solid #8375ea;
   color: #8375ea;
   background-color: #fff;
 }
 
-.edit img:hover{
+.edit img:hover {
   cursor: pointer;
 }
 
-.delete img:hover{
+.delete img:hover {
   cursor: pointer;
 }

@@ -1,3 +1,1 @@
-function addMed() {
-  
-}
+function addMed() {}

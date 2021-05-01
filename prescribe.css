@@ -1,15 +1,15 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Montserrat;
 }
 
-body{
+body {
   background: url(prescribe_bg.png) no-repeat center center fixed;
   background-size: cover;
 }
 
-.nav{
+.nav {
   display: inline-flex;
   background-color: #8375ea;
   width: 100%;
@@ -18,38 +18,38 @@ body{
   position: fixed;
 }
 
-.nav .name{
+.nav .name {
   display: inline-flex;
   padding: 10px 3%;
 }
 
-.nav .name h2{
+.nav .name h2 {
   color: #fff;
   padding: 6px 20px;
   font-size: 32px;
   font-weight: 300;
 }
 
-.nav h1{
+.nav h1 {
   color: #fff;
   padding: 5px 6%;
   text-shadow: 1px 1px 0 #8375ea;
   font-size: 48px;
 }
 
-.container{
+.container {
   width: 40%;
   transform: translate(20%, 30%);
   text-align: center;
 }
 
-.container h1{
+.container h1 {
   font-size: 64px;
   text-align: center;
   padding-bottom: 40px;
 }
 
-.medicine{
+.medicine {
   background-color: #fff;
   font-size: 24px;
   padding: 20px 20px;
@@ -57,32 +57,32 @@ body{
   box-shadow: 4px 4px 0 rgb(131, 117, 234, 0.25);
 }
 
-.head{
+.head {
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
 }
 
-.head img{
+.head img {
   height: 30px;
 }
 
-.head img:hover{
+.head img:hover {
   cursor: pointer;
 }
 
-.medicine table{
+.medicine table {
   width: 90%;
   align-items: center;
   border-collapse: separate;
   border-spacing: 0.5em;
 }
 
-.medicine table tr td:first-child{
+.medicine table tr td:first-child {
   text-align: left;
 }
 
-button{
+button {
   width: 100%;
   border: none;
   background-color: #8375ea;
@@ -91,22 +91,22 @@ button{
   color: white;
 }
 
-button img{
+button img {
   padding-right: 20px;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
-td input{
+td input {
   width: 100%;
   border: 2px solid #8375ea;
   border-radius: 5px;
   font-size: 24px;
 }
 
-.container .medicine div input{
+.container .medicine div input {
   text-align: center;
   background-color: #8375ea;
   border: none;
