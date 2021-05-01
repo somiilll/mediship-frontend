@@ -1,4 +1,10 @@
+const result = document.getElementById("result");
+
 async function getdata() {
+  let data = {};
+
+  result.innerHTML = JSON.stringify(data, null, 2);
+
   const response = await fetch("https://mediship.herokuapp.com/doctor", {
     method: "post",
     headers: { "Content-Type": "application/json" },
@@ -8,9 +14,7 @@ async function getdata() {
       email: "somilgoyal@gmail.com",
     }),
   });
-  const data = await response.json();
-
-  const result = document.getElementById("result");
+  data = await response.json();
 
   result.innerHTML = JSON.stringify(data, null, 2);
 }
