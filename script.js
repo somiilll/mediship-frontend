@@ -8,8 +8,12 @@ async function getdata() {
       email: "somilgoyal@gmail.com",
     }),
   });
-  console.log(await response.json());
+  const data = await response.json();
+
+  const result = document.getElementById("result");
+
+  result.innerHTML = JSON.stringify(data, null, 2);
 }
 
-var button = document.querySelector("#butt");
+const button = document.getElementById("butt");
 button.addEventListener("click", getdata());
