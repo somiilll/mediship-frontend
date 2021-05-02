@@ -17,18 +17,27 @@
         <input
           type="text"
           name="signinUsername"
+          id="username"
           placeholder="Username"
         /><br /><br /><br />
         <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        /><br /><br /><br />
+        <input
           type="password"
+          id="password"
           name="signinPassword"
           placeholder="Password"
         /><br /><br /><br />
         <h2>Forgot your password?</h2>
         <br />
-        <a href="dashboard.html"
-          ><button type="button" name="button-sign-in">Sign In</button></a
-        >
+
+        <button type="button" onclick="signin()" name="button-sign-in">
+          Sign In
+        </button>
       </div>
       <div class="signup">
         <h1>Hi, there!</h1>
@@ -38,5 +47,6 @@
         <button type="button" name="button-no-acc">Sign Up</button>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

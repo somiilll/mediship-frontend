@@ -14,7 +14,7 @@
       <h1>MEDISHIP</h1>
       <div class="name">
         <h2>Piyush Raj Gupta</h2>
-        <img src="propic_dummy.png" alt="" />
+        <img src="assets/propic_dummy.png" alt="" />
       </div>
     </div>
     <div class="container">
@@ -22,32 +22,36 @@
       <div class="medicine">
         <div class="head">
           <span>Medicine 1</span>
-          <img class="hidden" src="delete_icon.png" alt="" />
+          <img class="hidden" src="assets/delete_icon.png" alt="" />
         </div>
         <br /><br />
         <form class="" action="" method="post">
           <table>
             <tr>
               <td>Medicine Name:</td>
-              <td><input type="text" name="med-name" /></td>
+              <td><input type="text" id="med-name" name="med-name" /></td>
             </tr>
             <tr>
               <td>Dosage:</td>
-              <td><input type="text" name="dosage" /></td>
+              <td><input type="text" id="dosage" name="dosage" /></td>
             </tr>
             <tr>
               <td>Duration:</td>
-              <td><input type="text" name="med-name" /></td>
+              <td>
+                <input type="text" id="med-duration " name="med-duration" />
+              </td>
             </tr>
           </table>
         </form>
         <div class="save">
-          <input type="submit" name="save" value="Save" />
+          <input type="submit" onclick="addMed()" name="save" value="Save" />
         </div>
       </div>
       <br /><br /><br />
-      <button onclick="addMed()" type="button" name="button-add-med">
-        <img src="plus_icon.png" alt="" /><span>Add another Medicine</span>
+      <button type="button" name="button-add-med">
+        <img src="assets/plus_icon.png" alt="" /><span
+          >Add another Medicine</span
+        >
       </button>
     </div>
     <script src="prescribe.js" charset="utf-8"></script>

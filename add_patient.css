@@ -33,7 +33,7 @@
 }
 
 body {
-  background: url(prescribe_bg.png) no-repeat center center fixed;
+  background: url("assets/prescribe_bg.png") no-repeat center center fixed;
   background-size: cover;
 }
 

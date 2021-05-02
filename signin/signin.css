@@ -5,14 +5,14 @@
 }
 
 body {
-  background: url(Login_bg.png) no-repeat center center fixed;
+  background: url("../assets/login_bg.png") no-repeat center center fixed;
   background-size: cover;
   /* background-color: #e7e6fd; */
 }
 
 .container {
   display: inline-flex;
-  transform: translate(120%, 25%);
+  transform: translate(50%, 25%);
 }
 
 .signin {
